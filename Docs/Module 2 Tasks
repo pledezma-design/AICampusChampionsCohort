@@ -1,0 +1,204 @@
+# Module 2: AI Cohort Champions
+
+## Key Terms - Write Your Own Definition After Reading
+
+| Term | Your Definition (In Your Own Words) |
+|------|-------------------------------------|
+| Chain-of-thought prompting | A method that can be used to improve LLMs' outputs. A coherent series of intermediate reasoning steps that lead to the final answer for a problem. |
+| Zero-shot prompting | An LLM is given a command using natural language; no examples are provided (e.g., define standard deviation) |
+| Few-shot prompting | An LLM is given a command using natural language and given multiple demonstrations of the task |
+| Reasoning chain | This is part of the CoT process. Reasoning chains are included in the exemplars provided to the LLM to illustrate how to complete the task. |
+| Emergent ability | Chain of Thought performance gains when used with models of ∼100B parameters |
+| Hallucination | AI-generated content that sounds factual, but it is not |
+| Intrinsic hallucinations | AI-generated content that contradicts source content |
+| Extrinsic hallucinations | AI-generated content that cannot be verified using source content |
+
+---
+
+## Five-Task Comparison Matrix - Complete All Cells
+
+> **Comparing Claude Haiku 4.5 vs ChatGPT across 5 tasks**
+
+### Task 1: Transformer Architecture
+
+**Claude Haiku 4.5**
+- **Output Summary:** The Transformer architecture was first introduced in 2017 in the paper "Attention Is All You Need" by Vaswani et al. **Exact Title:** "Attention Is All You Need" **APA Citation:** Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. In Advances in Neural Information Processing Systems 30 (pp. 5998–6008). The paper was presented at the 31st Annual Conference on Neural Information Processing Systems (NeurIPS) held December 4-9, 2017, in Long Beach, California.
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 4.5
+- **Format (1-5):** 4
+
+**ChatGPT**
+- **Output Summary:** The Transformer architecture was first introduced in a peer-reviewed conference paper in 2017. The paper's exact title is: Attention Is All You Need. It was presented at the 31st Conference on Neural Information Processing Systems (NeurIPS 2017) and published in the conference proceedings. The paper introduced the Transformer architecture as a sequence transduction model based entirely on attention mechanisms, eliminating the need for recurrent or convolutional neural networks. **APA Citation:** Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). *Attention is all you need*. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. V. N. Vishwanathan, & R. Garnett (Eds.), *Advances in Neural Information Processing Systems* (Vol. 30). Curran Associates, Inc.
+- **Accuracy (1-5):** 4.5
+- **Relevance (1-5):** 4.5
+- **Format (1-5):** 4
+
+---
+
+### Task 2: LLM Alignment with Human Feedback
+
+**Claude Haiku 4.5**
+- **Output Summary:** Bigger AI language models don't automatically follow what users want—they can produce false, harmful, or unhelpful responses. Researchers tackled this problem by training GPT-3 using human feedback. First, they had people demonstrate the desired behavior through labeled examples, then they ranked model outputs to show what was better or worse. This two-step approach created a model called InstructGPT. Remarkably, a smaller InstructGPT model (1.3 billion parameters) outperformed the massive GPT-3 (175 billion parameters). The new model was also more truthful and less toxic.
+- **Accuracy (1-5):** 4
+- **Relevance (1-5):** 5
+- **Format (1-5):** 5
+
+**ChatGPT**
+- **Output Summary:** Researchers found that simply making language models larger does not ensure they produce helpful, truthful, or safe responses. Instead, they improved a model by training it with feedback from people. First, human reviewers showed the model examples of good answers. Then, they ranked different responses so the model could learn which ones people preferred. The resulting system, called InstructGPT, produced answers that users liked more than those from a much larger GPT-3 model.
+- **Accuracy (1-5):** 4
+- **Relevance (1-5):** 5
+- **Format (1-5):** 5
+
+---
+
+### Task 3: Statistical Analysis Python Function
+
+**Claude Haiku 4.5**
+- **Output:** ⭐ Complete with docstring, error handling, and detailed usage example
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 5
+- **Format (1-5):** 4
+
+**ChatGPT**
+- **Output:** ⭐ Concise and functional, no external dependencies
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 5
+- **Format (1-5):** 5
+
+---
+
+### Task 4: Speaking Invitation Decline Email
+
+**Claude Haiku 4.5**
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 5
+- **Format (1-5):** 5
+
+**ChatGPT**
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 4
+- **Format (1-5):** 4
+
+---
+
+### Task 5: AI Disclosure in Education
+
+**Claude Haiku 4.5**
+- **Pro Argument:** Mandatory AI disclosure aligns with academic integrity principles by ensuring instructors can fairly evaluate students' own thinking versus AI-generated content, and maintains institutional transparency that builds trust with employers and accreditors.
+- **Con Argument:** Blanket disclosure requirements may discourage students from using AI as a legitimate learning tool and risks disadvantaging students with less access to AI resources.
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 4.5
+- **Format (1-5):** 5
+
+**ChatGPT**
+- **Pro Argument:** Requiring disclosure promotes academic integrity and helps instructors distinguish between student's own work and AI-assisted contributions.
+- **Con Argument:** Mandatory disclosure may discourage students from using legitimate AI tools for brainstorming and editing, and could create privacy concerns.
+- **Accuracy (1-5):** 5
+- **Relevance (1-5):** 4
+- **Format (1-5):** 5
+
+---
+
+## Reflection
+
+### Initial Observations
+
+I started this task feeling biased against ChatGPT. Claude is my LLM of choice as it aligns better with my professional tone and quality standards. However, I can see why others may prefer ChatGPT. I noticed that ChatGPT generates output faster than Claude, and I preferred the formatting of the output for prompt #3.
+
+### Key Findings
+
+- **Claude strengths:** Better writer with more professional vocabulary. Excellent for writing and summarizing tasks.
+- **ChatGPT strengths:** Faster generation. Good formatting for technical outputs. May consider for writing R code.
+- **Overall preference:** Claude for writing/summarizing tasks; ChatGPT as secondary option for coding tasks.
+
+### Concluding Thoughts
+
+When summarizing research papers, both models made bolder claims than the original text. Both tools have value depending on the task type. Claude remains the preferred tool for professional writing; ChatGPT offers utility for specific technical applications.
+
+---
+
+## Target Task Analysis: Summarizing Research Findings for General Audience
+
+### Sample Data
+
+| Behavior | Before Mean | After Mean | Difference |
+|----------|------------|------------|-----------|
+| I encourage team colleagues to practice new skills and pedagogies. | 2.00 | 3.55 | 1.55 |
+| I acknowledge team colleagues' exceptional performance and provide incentives/encouragement. | 2.40 | 3.25 | 0.85 |
+| I encourage team colleagues to collaborate with peers from other schools | 2.17 | 3.20 | 1.03 |
+
+---
+
+## Version Iterations & Improvements
+
+### Version 1: Zero-Shot Prompting
+**Instruction:** "Use the table below to summarize research findings to a general audience."
+
+**Key Weakness:** Made unsupported assumptions about causation ("became significantly more likely") without statistical evidence.
+
+---
+
+### Version 2: With Role Specification
+**Role:** "You are an experienced research scientist at a large public university conducting a program evaluation for an educational program."
+
+**Improvement:** Provided more structured interpretation with clear section headers and professional framing.
+
+---
+
+### Version 3: Few-Shot Example
+**Added:** High-quality reference example of desired output format.
+
+**Result:** Better alignment with institutional evaluation language.
+
+---
+
+### Version 4: Chain-of-Thought Prompting ⭐
+
+**Planning steps:**
+1. **Audience:** Program team members—educators and coordinators
+2. **Single most important point:** Meaningful gains across all three behaviors
+3. **Tone:** Grounded, professional, warm
+
+**Output:**
+The pre-post survey data shows meaningful growth in all three measured leadership behaviors. Participants reported stronger engagement in each area after the program.
+
+The largest shift occurred in encouraging team colleagues to practice new skills and pedagogies, which increased 1.55 points on the scale. This aligns directly with what the program aims to foster—a culture where team leaders actively support colleagues in experimenting with new approaches.
+
+Participants also reported increased engagement in recognizing colleagues' exceptional work, with a 0.85-point gain. While more modest than the first measure, this reflects a real shift in how participants attend to and reinforce their colleagues' contributions.
+
+A 1.03-point increase in encouraging cross-school collaboration suggests the program is broadening participants' perspectives on what leadership looks like—moving beyond their immediate teams toward a wider professional network.
+
+Across the board, the starting levels (2.0–2.4) were moderate, suggesting there was genuine room for growth. The post-program levels (3.2–3.55) indicate participants are now more consistently demonstrating these leadership behaviors.
+
+---
+
+## Hallucination Audit Log
+
+| Text | Claim | Accurate? | Verification Source | Type | Severity |
+|------|-------|-----------|-------------------|------|----------|
+| A | Modern Olympics revived in 1900 in Paris | No | olympics.com | Intrinsic | High |
+| A | First modern Games featured 14 nations | Yes | olympics.com | Factual | — |
+| A | Women excluded until 1920 Antwerp | No | olympics.com | Intrinsic | High |
+| A | Olympic motto Citius, Altius, Fortius | Yes | olympics.com | Factual | — |
+| B | Adults need 7-9 hours sleep | Uncertain | Sleep research literature | — | Low |
+| B | REM sleep repairs muscle tissue | No | NIH | Intrinsic | Medium |
+| B | Sleep deprivation (<6hr) linked to cardiovascular disease | Yes (mostly) | Sleep research | Factual | Low |
+| C | Amazon spans 5.5M sq km | Yes | Earth Day | Factual | — |
+| C | Contains 400B+ trees, 16K+ species | No (390B trees) | Earth Day | Intrinsic | Low |
+| D | Marie Curie Polish physicist/chemist | Yes | Britannica | Factual | — |
+| D | First woman Nobel Prize 1903 | No (1911) | Britannica | Intrinsic | Low |
+| D | First professor at University of Warsaw | No | Britannica | Intrinsic | High |
+| E | Internet and Web are same technology | No | GeeksforGeeks | Intrinsic | Medium |
+| E | Tim Berners-Lee designed Web for nuclear resilience | No | Diffen | Extrinsic | High |
+
+---
+
+## AI Tool Landscape Annotation
+
+| Tool Name | Modality | Access Status | Best Use Case for My Role | Key Institutional Concern |
+|-----------|----------|---------------|--------------------------|--------------------------|
+| Claude | Text | Free / Paid tiers | Writing, analysis, document review | Review data retention policy per tier |
+| Adobe Firefly | Image | Free / Institutional | Image creation and editing | Often covered by institutional Adobe license |
+| Cursor | Code | Paid | Code editing with AI assistance | Codebase uploaded to external server |
+| Claude (with files) | Multimodal | Free / Paid | Text plus document and image analysis | Review which plan governs data retention |
+
